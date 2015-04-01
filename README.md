@@ -11,12 +11,12 @@ In order to use this content, you need to do the following:
 1. Fork this repo on GitHub
 2. Clone it locally
 
-    git clone https://github.com/<your_username>/phys202-2015.git
+        git clone https://github.com/<your_username>/phys202-2015.git
 
 3. Add an upstream remote to pull changes
 
-    cd phys202-2015
-    git remote add upstream https://github.com/ellisonbg/phys202-2015.git
+        cd phys202-2015
+        git remote add upstream https://github.com/ellisonbg/phys202-2015.git
 
 # To get the latest content
 
