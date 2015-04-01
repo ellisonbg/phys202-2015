@@ -1,11 +1,8 @@
 # phys202-2015
 
 [![Join the chat at https://gitter.im/ellisonbg/phys202-2015](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ellisonbg/phys202-2015?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-Main content for PHYS 202 at Cal Poly in 2015
 
-# phys202-2015
-
-Public content for PHYS 202 at Cal Poly in 2015
+This repo contains the main content for PHYS 202 at Cal Poly in 2015.
 
 # To use the content
 
@@ -19,7 +16,7 @@ In order to use this content, you need to do the following:
 3. Add an upstream remote to pull changes
 
     cd phys202-2015
-    git remote add upstream https://github.com/Computing4Physics/phys202-2015.git
+    git remote add upstream https://github.com/ellisonbg/phys202-2015.git
 
 # To get the latest content
 
@@ -36,8 +33,16 @@ Once you have commited everything, run the following:
     git pull upstream master
     git push origin master
 
-# To submit your work
+# Always work in a branch
 
-Simply push to master:
+If you want to use the content and plan on changing it, you should work in
+a branch. This will make it easy for you to pull from upstream without 
+conflict. To create a new branch:
 
-    git push origin master
+    git checkout master
+    git checkout -b mybranch
+
+You can get back to master by commiting your changes in mybranch and doing:
+
+    git checkout master
+
